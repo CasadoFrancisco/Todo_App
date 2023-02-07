@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;800&display=swap");
 @import "transition-style";
 
+*{
+  margin: 0;
+}
 .App {
   height: 100vh;
   display: flex;
@@ -26,6 +29,7 @@
   display: flex;
   justify-content: space-around;
   width: 450px;
+  margin-top: 20px;
 }
 input {
   width: 80%;
